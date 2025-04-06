@@ -1,0 +1,14 @@
+.mainMenu {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 16px;
+}
+
+.mainMenu li a {
+    text-transform: uppercase;
+    color: var(--color-text-grey);
+    padding: 16px 0;
+    display: block;
+    font-weight: 700;
+}
