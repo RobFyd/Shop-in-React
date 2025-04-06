@@ -1,7 +1,8 @@
 .mainMenu {
     display: flex;
-    padding: 16px;
     align-items: center;
+    justify-content: flex-start;
+    padding: 16px;
     gap: 16px;
 }
 
@@ -11,4 +12,9 @@
     padding: 16px 0;
     display: block;
     font-weight: 700;
+}
+
+.mainMenu a:global(.active) {
+    color: var(--color-text-default);
+    border-bottom: 3px solid var(--color-text-default);
 }
