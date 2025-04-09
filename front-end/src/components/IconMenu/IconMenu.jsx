@@ -5,15 +5,15 @@ import { Link } from "react-router-dom";
 
 export function IconMenu() {
   return (
-    <ul className={styles}>
+    <ul className={styles.iconMenu}>
       <li>
         <Link to="/favorite">
-          <img src={BAG} />
+          <img src={HEART} />
         </Link>
       </li>
       <li>
         <Link to="/basket">
-          <img src={HEART} />
+          <img src={BAG} />
         </Link>
       </li>
     </ul>
