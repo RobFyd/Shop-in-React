@@ -1,0 +1,9 @@
+.topBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    max-width: 100rem;
+    /* 100rem = 1600px */
+    margin: 0 auto;
+    align-items: center;
+}
