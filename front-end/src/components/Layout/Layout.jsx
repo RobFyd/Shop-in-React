@@ -3,14 +3,17 @@ import { MainMenu } from "../MainMenu/MainMenu";
 import { Logo } from "../Logo/Logo";
 import { CurrencySelector } from "../CurrencySelector/CurrencySelector";
 import { IconMenu } from "../IconMenu/IconMenu";
+import { TopBar } from "../TopBar/TopBar";
 
 export function Layout() {
   return (
     <>
-      <MainMenu />
-      <Logo />
-      <CurrencySelector />
-      <IconMenu />
+      <TopBar>
+        <MainMenu />
+        <Logo />
+        <CurrencySelector />
+        <IconMenu />
+      </TopBar>
       <Footer />
     </>
   );
