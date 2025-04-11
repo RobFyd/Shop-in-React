@@ -7,3 +7,9 @@
     margin: 0 auto;
     align-items: center;
 }
+
+.topBar>div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

@@ -11,8 +11,10 @@ export function Layout() {
       <TopBar>
         <MainMenu />
         <Logo />
-        <CurrencySelector />
-        <IconMenu />
+        <div>
+          <CurrencySelector />
+          <IconMenu />
+        </div>
       </TopBar>
       <Footer />
     </>
