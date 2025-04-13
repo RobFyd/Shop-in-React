@@ -1,7 +1,18 @@
+import { CATEGORIES } from "../../constants/categories";
+import { NavLink } from "react-router-dom";
+
 export function CategoryMenu() {
   return (
     <div>
-      <ul></ul>
+      <ul>
+        {CATEGORIES.map((category) => {
+          return (
+            <li key={category.path}>
+              <NavLink to={category.path}>{category.categoryName}</NavLink>
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 }
