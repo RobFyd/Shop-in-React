@@ -4,6 +4,7 @@ import { Logo } from "../Logo/Logo";
 import { CurrencySelector } from "../CurrencySelector/CurrencySelector";
 import { IconMenu } from "../IconMenu/IconMenu";
 import { TopBar } from "../TopBar/TopBar";
+import { CategoryMenu } from "../CategoryMenu/CategoryMenu";
 
 export function Layout() {
   return (
@@ -16,6 +17,7 @@ export function Layout() {
           <IconMenu />
         </div>
       </TopBar>
+      <CategoryMenu />
       <Footer />
     </>
   );
