@@ -1,8 +1,12 @@
+import style from "./Hero.module.css";
 import { CeneteredContent } from "../CenteredContent/CenteredContent";
 
-export function Hero() {
+export function Hero({ heroImage }) {
   return (
-    <div>
+    <div
+      className={style.hero}
+      style={{ backgroundImage: `url(${heroImage})` }}
+    >
       <CeneteredContent>
         <div>
           <h2>Summer promotions up to -70%</h2>
