@@ -3,3 +3,15 @@
     height: 500px;
     background-size: cover;
 }
+
+.contentWrapper {
+    margin-top: 5rem;
+    padding: 3rem 5rem;
+    display: inline-block;
+    background: (255, 255, 255, 0.5);
+}
+
+.contentWrapper p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
