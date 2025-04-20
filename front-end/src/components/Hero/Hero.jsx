@@ -1,5 +1,6 @@
 import style from "./Hero.module.css";
 import { CeneteredContent } from "../CenteredContent/CenteredContent";
+import { FullWidthButton } from "../FullWidthButton/FullWidthButton";
 
 export function Hero({ heroImage }) {
   return (
@@ -11,7 +12,7 @@ export function Hero({ heroImage }) {
         <div className={style.contentWrapper}>
           <h2>Summer promotions up to -70%</h2>
           <p>Only the best deals!</p>
-          <button>Check the product</button>
+          <FullWidthButton>Check out the products</FullWidthButton>
         </div>
       </CeneteredContent>
     </div>
