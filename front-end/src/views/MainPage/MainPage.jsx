@@ -7,8 +7,8 @@ export function MainPage() {
     {
       id: 1,
       gender: "men",
-      category: "odziez",
-      subcategory: "koszulki",
+      category: "clothes",
+      subcategory: "t-shirts",
       productName: "T-Shirt",
       brand: "Top Brand",
       pricePLN: 49,
@@ -26,8 +26,8 @@ export function MainPage() {
     {
       id: 2,
       gender: "men",
-      category: "odziez",
-      subcategory: "koszulki",
+      category: "clothes",
+      subcategory: "t-shirts",
       productName: "T-Shirt",
       brand: "Top Brand",
       pricePLN: 49,
@@ -45,8 +45,8 @@ export function MainPage() {
     {
       id: 3,
       gender: "men",
-      category: "odziez",
-      subcategory: "koszulki",
+      category: "clothes",
+      subcategory: "t-shirts",
       productName: "T-shirt 2",
       brand: "Sun Tzu",
       pricePLN: 199,
@@ -64,8 +64,8 @@ export function MainPage() {
     {
       id: 4,
       gender: "men",
-      category: "odziez",
-      subcategory: "koszulki",
+      category: "clothes",
+      subcategory: "t-shirts",
       productName: "T-shirt 3",
       brand: "Sun Tzu",
       pricePLN: 199,
