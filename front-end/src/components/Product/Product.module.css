@@ -1,0 +1,18 @@
+.product {
+    position: relative;
+}
+
+.product img {
+    width: 400px;
+    height: 250px;
+}
+
+.product h3 {
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.product p {
+    color: var(--color-price);
+    margin-bottom: 1rem;
+}
