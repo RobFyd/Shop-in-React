@@ -1,3 +1,3 @@
-export function Product() {
-  return <div></div>;
+export function Product({ product }) {
+  return <p>{product.productName}</p>;
 }

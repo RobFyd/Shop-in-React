@@ -1,6 +1,6 @@
 import { Hero } from "../../components/Hero/Hero";
 import { Layout } from "../../components/Layout/Layout";
-import COVER_PHOTO from "../../assets/cover.jpeg";
+import COVER_PHOTO from "../../assets/cover4.jpg";
 
 export function MainPage() {
   const products = [
