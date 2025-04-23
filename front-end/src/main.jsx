@@ -5,6 +5,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { MainPage } from "./views/MainPage/MainPage.jsx";
+import { Favorites } from "./views/Favourites/Favorites.jsx";
 
 const router = createBrowserRouter([
   {
