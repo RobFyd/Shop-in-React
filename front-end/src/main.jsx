@@ -10,7 +10,7 @@ import { Favorites } from "./views/Favourites/Favorites.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainPage />,
+    element: <Favorites />,
   },
 ]);
 
