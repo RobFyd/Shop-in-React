@@ -12,6 +12,7 @@ export function MainPage() {
       subcategory: "t-shirts",
       productName: "T-Shirt",
       brand: "Top Brand",
+      priceGBP: 19.99,
       pricePLN: 49,
       priceUSD: 10,
       photos: [
@@ -32,6 +33,7 @@ export function MainPage() {
       subcategory: "t-shirts",
       productName: "T-Shirt",
       brand: "Top Brand",
+      priceGBP: 19.99,
       pricePLN: 49,
       priceUSD: 10,
       photos: [
@@ -50,8 +52,10 @@ export function MainPage() {
       gender: "men",
       category: "clothes",
       subcategory: "t-shirts",
-      productName: "T-shirt 2",
+      productName: "T-shirt",
+      // productName: "T-shirt 2",
       brand: "Sun Tzu",
+      priceGBP: 19.99,
       pricePLN: 199,
       priceUSD: 49,
       photos: [
@@ -70,8 +74,10 @@ export function MainPage() {
       gender: "men",
       category: "clothes",
       subcategory: "t-shirts",
-      productName: "T-shirt 3",
+      productName: "T-shirt",
+      // productName: "T-shirt 3",
       brand: "Sun Tzu",
+      priceGBP: 19.99,
       pricePLN: 199,
       priceUSD: 49,
       photos: [
