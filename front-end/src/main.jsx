@@ -6,11 +6,12 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { MainPage } from "./views/MainPage/MainPage.jsx";
 import { Favorites } from "./views/Favorites/Favorites.jsx";
+import { Cart } from "./views/Cart/Cart.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Favorites />,
+    element: <Cart />,
   },
 ]);
 
