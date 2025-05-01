@@ -14,11 +14,11 @@ export function CartSummary({ products }) {
         <p>Shipping cost:</p>
         <p>£10</p>
       </div>
-      <div className={`${styles.cartRow} ${styles.summaryRow}`}>
+      <div className={`${styles.cartRow} ${styles.cartSummaryRow}`}>
         <p>To be paid:</p>
         <p>£209</p>
       </div>
-      <FullWidthButton>Checkout</FullWidthButton>
+      <FullWidthButton isBlack={true}>Checkout</FullWidthButton>
       <div className={styles.deliveryInfo}>
         <img src={CAR_ICON} />
         <p>Free delivery over £250</p>
