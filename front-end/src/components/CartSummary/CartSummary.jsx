@@ -4,14 +4,16 @@ import CAR_ICON from "../../assets/car.svg";
 
 export function CartSummary({ products }) {
   const deliveryCost = 10;
-  const minSummaryForFreeDelivery = 250;
+  const minSumForFreeDelivery = 250;
 
   let sum = 0;
   products.forEach((product) => {
     sum += product.priceGBP;
   });
 
-  const totalCost = sum > minSummaryForFreeDelivery ? sum : sum + deliveryCost;
+  const totalCost = sum > minSumForFreeDelivery ? sum : sum + deliveryCost;
+
+  sum = 300;
 
   return (
     <div className={styles.cartSummary}>
@@ -22,7 +24,7 @@ export function CartSummary({ products }) {
       </div>
       <div className={styles.cartRow}>
         <p>Shipping cost:</p>
-        <p>£{sum > minSummaryForFreeDelivery ? 0 : deliveryCost}</p>
+        <p>£{sum > minSumForFreeDelivery ? 0 : deliveryCost}</p>
       </div>
       <div className={`${styles.cartRow} ${styles.cartSummaryRow}`}>
         <p>To be paid:</p>
@@ -31,7 +33,7 @@ export function CartSummary({ products }) {
       <FullWidthButton isBlack={true}>Checkout</FullWidthButton>
       <div className={styles.deliveryInfo}>
         <img src={CAR_ICON} />
-        <p>Free delivery over £{minSummaryForFreeDelivery}</p>
+        <p>Free delivery over £{minSumForFreeDelivery}</p>
       </div>
     </div>
   );
