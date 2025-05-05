@@ -22,7 +22,7 @@ export function CartSummary({ products }) {
       </div>
       <div className={styles.cartRow}>
         <p>Shipping cost:</p>
-        <p>£10</p>
+        <p>£{sum > minSummaryForFreeDelivery ? 0 : deliveryCost}</p>
       </div>
       <div className={`${styles.cartRow} ${styles.cartSummaryRow}`}>
         <p>To be paid:</p>
