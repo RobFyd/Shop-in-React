@@ -53,7 +53,7 @@ export function Cart() {
     <Layout>
       <FlexContainer>
         <CartProductsList products={cartProducts} />
-        <CartSummary />
+        <CartSummary products={cartProducts} />
       </FlexContainer>
     </Layout>
   );
