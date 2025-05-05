@@ -11,7 +11,7 @@ export function CartSummary({ products }) {
     sum += product.priceGBP;
   });
 
-  const totalCost = sum + deliveryCost;
+  const totalCost = sum > minSummaryForFreeDelivery ? sum : sum + deliveryCost;
 
   return (
     <div className={styles.cartSummary}>
