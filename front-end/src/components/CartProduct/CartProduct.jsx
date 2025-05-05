@@ -10,11 +10,10 @@ export function CartProduct({ product }) {
           <h3>
             {product.brand} {product.productName}
           </h3>
-          <p>{product.priceGBP}£</p>
+          <p>£{product.priceGBP}</p>
         </div>
         <p className={styles.priceRow}>
-          <span>Price: </span>
-          {product.priceGBP}£
+          <span>Price: </span>£{product.priceGBP}
         </p>
         <div className={styles.buttonRow}>
           <button>
