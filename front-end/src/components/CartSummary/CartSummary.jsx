@@ -3,6 +3,14 @@ import { FullWidthButton } from "../FullWidthButton/FullWidthButton";
 import CAR_ICON from "../../assets/car.svg";
 
 export function CartSummary({ products }) {
+  const deliveryCost = 10;
+  const minSummaryForFreeDelivery = 250;
+
+  let sum = 0;
+  products.forEach((product) => {
+    sum += product.priceGBP;
+  });
+
   return (
     <div className={styles.cartSummary}>
       <h2>Summary</h2>
