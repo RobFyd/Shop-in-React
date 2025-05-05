@@ -11,12 +11,14 @@ export function CartSummary({ products }) {
     sum += product.priceGBP;
   });
 
+  const totalCost = sum + deliveryCost;
+
   return (
     <div className={styles.cartSummary}>
       <h2>Summary</h2>
       <div className={styles.cartRow}>
         <p>Value of products:</p>
-        <p>£199</p>
+        <p>£{sum}</p>
       </div>
       <div className={styles.cartRow}>
         <p>Shipping cost:</p>
@@ -24,7 +26,7 @@ export function CartSummary({ products }) {
       </div>
       <div className={`${styles.cartRow} ${styles.cartSummaryRow}`}>
         <p>To be paid:</p>
-        <p>£209</p>
+        <p>£{totalCost}</p>
       </div>
       <FullWidthButton isBlack={true}>Checkout</FullWidthButton>
       <div className={styles.deliveryInfo}>
