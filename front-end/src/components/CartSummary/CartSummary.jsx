@@ -31,7 +31,7 @@ export function CartSummary({ products }) {
       <FullWidthButton isBlack={true}>Checkout</FullWidthButton>
       <div className={styles.deliveryInfo}>
         <img src={CAR_ICON} />
-        <p>Free delivery over £250</p>
+        <p>Free delivery over £{minSummaryForFreeDelivery}</p>
       </div>
     </div>
   );
