@@ -13,6 +13,15 @@ export function ExpandableMenu() {
               <NavLink>
                 {category.categoryName} <img src={ARROW_ICON} alt="arrow" />
               </NavLink>
+              <ul>
+                {category.subcategories.map((subcategory) => {
+                  return (
+                    <li key={subcategory.path}>
+                      <NavLink>{subcategory.categoryName}</NavLink>
+                    </li>
+                  );
+                })}
+              </ul>
             </li>
           );
         })}
