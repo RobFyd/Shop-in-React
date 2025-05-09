@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import ARROW_ICON from "../../assets/arrow.svg";
 
 export function ExpandableMenu() {
+  const activePath = "clothes";
   return (
     <div className={styles.expandableMenu}>
       <p>Women</p>
@@ -14,17 +15,19 @@ export function ExpandableMenu() {
               <NavLink to={category.path}>
                 {category.categoryName} <img src={ARROW_ICON} alt="arrow" />
               </NavLink>
-              <ul>
-                {category.subcategories.map((subcategory) => {
-                  return (
-                    <li key={subcategory.path}>
-                      <NavLink to={subcategory.path}>
-                        {subcategory.categoryName}
-                      </NavLink>
-                    </li>
-                  );
-                })}
-              </ul>
+              {activePath === category.path && (
+                <ul>
+                  {category.subcategories.map((subcategory) => {
+                    return (
+                      <li key={subcategory.path}>
+                        <NavLink to={subcategory.path}>
+                          {subcategory.categoryName}
+                        </NavLink>
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
             </li>
           );
         })}
