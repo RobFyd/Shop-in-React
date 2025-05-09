@@ -13,7 +13,14 @@ export function ExpandableMenu() {
           return (
             <li key={category.path}>
               <NavLink to={category.path}>
-                {category.categoryName} <img src={ARROW_ICON} alt="arrow" />
+                {category.categoryName}{" "}
+                <img
+                  src={ARROW_ICON}
+                  className={
+                    activePath === category.path ? styles.expanded : ""
+                  }
+                  alt="arrow"
+                />
               </NavLink>
               {activePath === category.path && (
                 <ul>
