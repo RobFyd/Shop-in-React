@@ -21,6 +21,7 @@
 
 .expandableMenu li ul {
     padding-left: 2rem;
+    margin-top: 0.5rem;
 }
 
 .expandableMenu a:global(.active) {
