@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import ARROW_ICON from "../../assets/icons/arrow.svg";
+import ARROW_ICON from "../../assets/arrow.svg";
 
 export function Breadcrumbs() {
   const breadcrumbs = [
@@ -16,4 +16,18 @@ export function Breadcrumbs() {
       parh: "sweaters",
     },
   ];
+
+  return (
+    <ul>
+      {breadcrumbs.map((breadcrumb) => {
+        return (
+          <li key={breadcrumb.path}>
+            <NavLink to={breadcrumb.path}>
+              {breadcrumb.categoryName} <img src={ARROW_ICON} />
+            </NavLink>
+          </li>
+        );
+      })}
+    </ul>
+  );
 }
