@@ -1,3 +1,4 @@
+import style from "./Breadcrumbs.module.css";
 import { NavLink } from "react-router-dom";
 import ARROW_ICON from "../../assets/arrow.svg";
 
@@ -18,7 +19,7 @@ export function Breadcrumbs() {
   ];
 
   return (
-    <ul>
+    <ul className={style.breadcrumbs}>
       {breadcrumbs.map((breadcrumb) => {
         return (
           <li key={breadcrumb.path}>
