@@ -4,6 +4,8 @@ import { ExpandableMenu } from "../../components/ExpandableMenu/ExpandableMenu.j
 import { Breadcrumbs } from "../../components/Breadcrumbs/Breadcrumbs.jsx";
 
 export function ProductsList() {
+  const products = [];
+
   return (
     <Layout>
       <FlexContainer>
