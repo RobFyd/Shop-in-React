@@ -1,8 +1,8 @@
-import styles from "./Bestsellers.module.css";
+import styles from "./Products.module.css";
 import { CeneteredContent } from "../CenteredContent/CenteredContent";
 import { Product } from "../Product/Product";
 
-export function Bestsellers({ products, headerText }) {
+export function Products({ products, headerText }) {
   return (
     <CeneteredContent>
       <h2 className={styles.bestsellerHeader}>{headerText}</h2>
