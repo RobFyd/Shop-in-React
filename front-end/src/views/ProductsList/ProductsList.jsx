@@ -166,7 +166,7 @@ export function ProductsList() {
         <ExpandableMenu />
         <div>
           <Breadcrumbs />
-          <Bestsellers products={products} />
+          <Bestsellers products={products} headerText="Sweaters" />
         </div>
       </FlexContainer>
     </Layout>
