@@ -8,11 +8,12 @@ import { MainPage } from "./views/MainPage/MainPage.jsx";
 import { Favorites } from "./views/Favorites/Favorites.jsx";
 import { Cart } from "./views/Cart/Cart.jsx";
 import { ProductsList } from "./views/ProductsList/ProductsList.jsx";
+import { ProductDetails } from "./views/ProductDetails/ProductDetails.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <ProductsList />,
+    element: <ProductDetails />,
   },
 ]);
 
