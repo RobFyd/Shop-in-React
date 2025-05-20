@@ -17,7 +17,7 @@ export function ProductsList() {
       pricePLN: 49,
       priceUSD: 10,
       photos: [
-        "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+        "http://localhost:3000/product-photos/wt1 (1).png",
         "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
       ],
@@ -36,7 +36,7 @@ export function ProductsList() {
       pricePLN: 49,
       priceUSD: 10,
       photos: [
-        "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
+        "http://localhost:3000/product-photos/wt1 (2).png",
         "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
       ],
@@ -55,6 +55,7 @@ export function ProductsList() {
       pricePLN: 199,
       priceUSD: 49,
       photos: [
+        "http://localhost:3000/product-photos/wt1 (3).png",
         "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
@@ -74,6 +75,7 @@ export function ProductsList() {
       pricePLN: 199,
       priceUSD: 49,
       photos: [
+        "http://localhost:3000/product-photos/wt1 (4).png",
         "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
@@ -93,6 +95,7 @@ export function ProductsList() {
       pricePLN: 129,
       priceUSD: 39,
       photos: [
+        "http://localhost:3000/product-photos/wt1 (1).png",
         "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
@@ -112,6 +115,7 @@ export function ProductsList() {
       pricePLN: 49,
       priceUSD: 10,
       photos: [
+        "http://localhost:3000/product-photos/wt1 (2).png",
         "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
@@ -131,6 +135,7 @@ export function ProductsList() {
       pricePLN: 199,
       priceUSD: 49,
       photos: [
+        "http://localhost:3000/product-photos/wt1 (3).png",
         "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
@@ -150,6 +155,7 @@ export function ProductsList() {
       pricePLN: 199,
       priceUSD: 49,
       photos: [
+        "http://localhost:3000/product-photos/wt1 (4).png",
         "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
         "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
