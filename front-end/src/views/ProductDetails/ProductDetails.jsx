@@ -15,7 +15,7 @@ export function ProductDetails() {
     pricePLN: 49,
     priceUSD: 10,
     photos: [
-      "http://localhost:3000/product-photos/wt1 (1).png",
+      "http://localhost:3000/product-photos/Lshirt4.png",
       "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
       "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
     ],

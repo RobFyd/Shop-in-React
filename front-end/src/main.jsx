@@ -13,7 +13,7 @@ import { ProductDetails } from "./views/ProductDetails/ProductDetails.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <ProductsList />,
+    element: <ProductDetails />,
   },
 ]);
 
