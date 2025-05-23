@@ -16,8 +16,8 @@ export function ProductDetails() {
     priceUSD: 10,
     photos: [
       "http://localhost:3000/product-photos/Lshirt4.png",
-      "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
-      "http://localhost:3000/product-photos/man-t-shirt-3.jpg",
+      "http://localhost:3000/product-photos/Lshirt3.png",
+      "http://localhost:3000/product-photos/Lshirt2.png",
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
