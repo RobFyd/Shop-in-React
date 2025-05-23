@@ -1,14 +1,15 @@
+import style from "./Photos.module.css";
 import { FlexContainer } from "../FlexContainer/FlexContainer";
 
 export function Photos({ product }) {
   return (
     <FlexContainer>
-      <div>
+      <div className={style.thumbnails}>
         {product.photos.map((photo) => {
           return <img key={photo} src={photo} />;
         })}
       </div>
-      <img src={product.photos[0]} />
+      <img className={style.mainPhoto} src={product.photos[0]} />
     </FlexContainer>
   );
 }
