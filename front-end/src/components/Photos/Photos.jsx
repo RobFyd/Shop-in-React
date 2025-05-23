@@ -5,7 +5,7 @@ export function Photos({ product }) {
     <FlexContainer>
       <div>
         {product.photos.map((photo) => {
-          return <img src={photo} />;
+          return <img key={photo} src={photo} />;
         })}
       </div>
       <img src={product.photos[0]} />
