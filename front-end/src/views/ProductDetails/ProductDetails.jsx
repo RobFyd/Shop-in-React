@@ -3,6 +3,7 @@ import { FlexContainer } from "../../components/FlexContainer/FlexContainer";
 import { ExpandableMenu } from "../../components/ExpandableMenu/ExpandableMenu";
 import { Breadcrumbs } from "../../components/Breadcrumbs/Breadcrumbs";
 import { Photos } from "../../components/Photos/Photos";
+import { Details } from "../../components/Details/Details";
 
 export function ProductDetails() {
   const product = {
@@ -32,6 +33,7 @@ export function ProductDetails() {
         <div>
           <Breadcrumbs />
           <Photos product={product} />
+          <Details product={product} />
         </div>
       </FlexContainer>
     </Layout>
