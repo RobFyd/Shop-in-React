@@ -8,7 +8,9 @@ export function Details({ product }) {
       <h2>{product.brand}</h2>
       <p>{product.productName}</p>
       <p>{product.priceGBP} GBP</p>
-      <FullWidthButton isBlack={true} icon={CAR_ICON} text="Add to Cart" />
+      <FullWidthButton isBlack={true} icon={CAR_ICON} text="Add to Cart">
+        Add to Cart
+      </FullWidthButton>
       {/* <FullWidthButton icon={RETURN_ICON} text="Return Item" /> */}
       <ul>
         <li>
