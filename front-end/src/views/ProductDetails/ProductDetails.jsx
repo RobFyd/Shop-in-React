@@ -15,6 +15,7 @@ export function ProductDetails() {
     brand: "Top Brand",
     pricePLN: 49,
     priceUSD: 10,
+    priceGBP: 19.99,
     photos: [
       "http://localhost:3000/product-photos/LS4.png",
       "http://localhost:3000/product-photos/LS3.png",

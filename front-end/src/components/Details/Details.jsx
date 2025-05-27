@@ -12,7 +12,6 @@ export function Details({ product }) {
       <FullWidthButton isBlack={true} icon={CAR_ICON} text="Add to Cart">
         Add to Cart
       </FullWidthButton>
-      {/* <FullWidthButton icon={RETURN_ICON} text="Return Item" /> */}
       <ul className={styles.extraInfo}>
         <li>
           <img src={CAR_ICON} />
