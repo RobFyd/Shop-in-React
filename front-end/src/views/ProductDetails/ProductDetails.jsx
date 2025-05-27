@@ -30,7 +30,7 @@ export function ProductDetails() {
     <Layout>
       <FlexContainer>
         <ExpandableMenu />
-        <div>
+        <div style={{ width: "100%" }}>
           <Breadcrumbs />
           <FlexContainer>
             <Photos product={product} />
