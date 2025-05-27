@@ -11,7 +11,7 @@
 }
 
 .thumbnails img.active {
-    border: 2px solid var(--color-text-default);
+    border: 3px solid var(--color-text-default);
 
 }
 
