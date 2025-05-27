@@ -18,7 +18,7 @@
 }
 
 .extraInfo li {
-    display: inline;
+    display: flex;
     align-items: center;
     justify-self: flex-start;
     gap: 1rem;

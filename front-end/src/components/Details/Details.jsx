@@ -1,18 +1,19 @@
+import styles from "./Details.module.css";
 import CAR_ICON from "../../assets/car.svg";
 import RETURN_ICON from "../../assets/return.svg";
 import { FullWidthButton } from "../FullWidthButton/FullWidthButton";
 
 export function Details({ product }) {
   return (
-    <div>
+    <div className={styles.details}>
       <h2>{product.brand}</h2>
-      <p>{product.productName}</p>
-      <p>{product.priceGBP} GBP</p>
+      <p className={styles.productName}>{product.productName}</p>
+      <p className={styles.price}>{product.priceGBP} GBP</p>
       <FullWidthButton isBlack={true} icon={CAR_ICON} text="Add to Cart">
         Add to Cart
       </FullWidthButton>
       {/* <FullWidthButton icon={RETURN_ICON} text="Return Item" /> */}
-      <ul>
+      <ul className={styles.extraInfo}>
         <li>
           <img src={CAR_ICON} />
           Delivery in 3-5 days
