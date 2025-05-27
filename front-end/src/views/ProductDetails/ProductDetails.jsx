@@ -32,8 +32,10 @@ export function ProductDetails() {
         <ExpandableMenu />
         <div>
           <Breadcrumbs />
-          <Photos product={product} />
-          <Details product={product} />
+          <FlexContainer>
+            <Photos product={product} />
+            <Details product={product} />
+          </FlexContainer>
         </div>
       </FlexContainer>
     </Layout>

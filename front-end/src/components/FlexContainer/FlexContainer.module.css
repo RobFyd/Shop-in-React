@@ -5,4 +5,6 @@
     max-width: 100rem;
     margin: 0 auto;
     align-items: flex-start;
+    margin-bottom: 50px;
+    /* Adjusted to match footer height */
 }
