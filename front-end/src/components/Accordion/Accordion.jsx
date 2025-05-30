@@ -1,3 +1,4 @@
+import styles from "./Accordion.module.css";
 import ARROW_ICON from "../../assets/arrow.svg";
 
 export function Accordion({ items }) {
@@ -6,7 +7,7 @@ export function Accordion({ items }) {
       {items.map((item) => {
         return (
           <li key={item.id}>
-            <div>
+            <div className={styles.item}>
               <p>{item.title}</p>
               <img src={ARROW_ICON} />
             </div>
