@@ -13,6 +13,22 @@ import { ProductDetails } from "./views/ProductDetails/ProductDetails.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <MainPage />,
+  },
+  {
+    path: "/favorites",
+    element: <Favorites />,
+  },
+  {
+    path: "/cart",
+    element: <Cart />,
+  },
+  {
+    path: "/products",
+    element: <ProductsList />,
+  },
+  {
+    path: "/products/:id",
     element: <ProductDetails />,
   },
 ]);
