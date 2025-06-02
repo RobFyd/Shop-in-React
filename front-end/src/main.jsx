@@ -8,28 +8,35 @@ import { Cart } from "./views/Cart/Cart.jsx";
 import { Favorites } from "./views/Favorites/Favorites.jsx";
 import { ProductsList } from "./views/ProductsList/ProductsList.jsx";
 import { ProductDetails } from "./views/ProductDetails/ProductDetails.jsx";
+import { Layout } from "./components/Layout/Layout.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <MainPage />,
+    path: "",
+    element: <Layout />,
+    children: [
+      // {
+      //   path: "/",
+      //   element: <MainPage />,
+      // },
+      {
+        path: "/cart",
+        element: <Cart />,
+      },
+      {
+        path: "/favorites",
+        element: <Favorites />,
+      },
+      // {
+      //   path: "/products",
+      //   element: <ProductsList />,
+      // },
+      // {
+      //   path: "/products/:id",
+      //   element: <ProductDetails />,
+      // },
+    ],
   },
-  {
-    path: "/cart",
-    element: <Cart />,
-  },
-  {
-    path: "/favorites",
-    element: <Favorites />,
-  },
-  // {
-  //   path: "/products",
-  //   element: <ProductsList />,
-  // },
-  // {
-  //   path: "/products/:id",
-  //   element: <ProductDetails />,
-  // },
 ]);
 
 createRoot(document.getElementById("root")).render(
