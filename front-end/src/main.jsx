@@ -2,7 +2,11 @@ import "./styles/theme.css";
 import "./styles/global.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  redirect,
+  RouterProvider,
+} from "react-router-dom";
 import { MainPage } from "./views/MainPage/MainPage.jsx";
 import { Cart } from "./views/Cart/Cart.jsx";
 import { Favorites } from "./views/Favorites/Favorites.jsx";
@@ -39,8 +43,11 @@ const router = createBrowserRouter([
           };
 
           const backEndPath = PATH_TO_ENDPOINT_MAPPING[params.gender];
-
-          return fetch(`http://localhost:3000/${backEndPath}`);
+          if (backEndPath) {
+            return fetch(`http://localhost:3000/${backEndPath}`);
+          } else {
+            return redirect("women");
+          }
         },
       },
       // {
