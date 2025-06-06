@@ -1,6 +1,7 @@
 import { Hero } from "../../components/Hero/Hero";
 import COVER_PHOTO from "../../assets/cover4.jpg";
 import { Products } from "../../components/Products/Products";
+import { useLoaderData } from "react-router-dom";
 
 export function MainPage() {
   const products = [
@@ -91,10 +92,20 @@ export function MainPage() {
         "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu",
     },
   ];
+
+  const { bestsellers, heroImageUrl } = useLoaderData();
+
+  // return (
+  //   <>
+  //     <Hero heroImage={COVER_PHOTO} />
+  //     <Products products={products} headerText="Check out our bestsellers" />
+  //   </>
+  // );
+
   return (
     <>
-      <Hero heroImage={COVER_PHOTO} />
-      <Products products={products} headerText="Check out our bestsellers" />
+      <Hero heroImage={heroImageUrl} />
+      <Products products={bestsellers} headerText="Check out our bestsellers" />
     </>
   );
 }

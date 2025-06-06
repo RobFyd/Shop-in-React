@@ -46,7 +46,7 @@ const router = createBrowserRouter([
           if (backEndPath) {
             return fetch(`http://localhost:3000/${backEndPath}`);
           } else {
-            return redirect("women");
+            return redirect("/women");
           }
         },
       },
