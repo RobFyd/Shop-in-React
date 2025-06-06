@@ -30,6 +30,18 @@ const router = createBrowserRouter([
       {
         path: "/:gender",
         element: <MainPage />,
+        loader: ({ params }) => {
+          const PATH_TO_ENDPOINT_MAPPING = {
+            //  Map gender to API endpoint
+            women: "women",
+            men: "men",
+            kids: "children",
+          };
+
+          const backEndPath = PATH_TO_ENDPOINT_MAPPING[params.gender];
+
+          return fetch(`http://localhost:3000/${backEndPath}`);
+        },
       },
       // {
       //   path: "/products",
