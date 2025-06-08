@@ -1,5 +1,5 @@
 import { Hero } from "../../components/Hero/Hero";
-import COVER_PHOTO from "../../assets/cover4.jpg";
+// import COVER_PHOTO from "../../assets/cover4.jpg";
 import { Products } from "../../components/Products/Products";
 import { useLoaderData } from "react-router-dom";
 
