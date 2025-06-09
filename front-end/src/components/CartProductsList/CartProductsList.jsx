@@ -1,10 +1,10 @@
 import styles from "./CartProductsList.module.css";
-import { CeneteredContent } from "../CenteredContent/CenteredContent";
+import { CenteredContent } from "../CenteredContent/CenteredContent";
 import { CartProduct } from "../CartProduct/CartProduct";
 
 export function CartProductsList({ products }) {
   return (
-    <CeneteredContent>
+    <CenteredContent>
       <div className={styles.favoritesList}>
         <h2>Basket</h2>
         <div>
@@ -13,6 +13,6 @@ export function CartProductsList({ products }) {
           })}
         </div>
       </div>
-    </CeneteredContent>
+    </CenteredContent>
   );
 }
