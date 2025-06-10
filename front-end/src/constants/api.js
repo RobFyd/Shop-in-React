@@ -4,3 +4,5 @@ export const PATH_TO_ENDPOINT_MAPPING = {
   men: "men",
   kids: "children",
 };
+
+export const BACK_END_URL = "http://localhost:3000";
