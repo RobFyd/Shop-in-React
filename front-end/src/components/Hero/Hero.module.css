@@ -1,7 +1,11 @@
 .hero {
     width: 100%;
+    max-width: 1570px;
     height: 500px;
     background-size: cover;
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
 }
 
 .contentWrapper {

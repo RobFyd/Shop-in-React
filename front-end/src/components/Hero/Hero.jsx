@@ -10,7 +10,7 @@ export function Hero({ heroImage }) {
     >
       <CenteredContent>
         <div className={style.contentWrapper}>
-          <h2>Summer promotions up to -70%</h2>
+          <h2>Promotions up to -70%</h2>
           <p>Only the best deals!</p>
           <FullWidthButton>Check out the products</FullWidthButton>
         </div>
