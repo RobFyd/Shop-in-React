@@ -16,10 +16,6 @@ const router = createBrowserRouter([
     path: "",
     element: <Layout />,
     children: [
-      // {
-      //   path: "/",
-      //   element: <MainPage />,
-      // },
       {
         path: "/cart",
         element: <Cart />,
@@ -29,7 +25,7 @@ const router = createBrowserRouter([
         element: <Favorites />,
       },
       {
-        path: "/:gender",
+        path: "/:gender?",
         element: <MainPage />,
         loader: mainPageLoader,
       },
