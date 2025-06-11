@@ -1,5 +1,6 @@
 export const PATH_TO_ENDPOINT_MAPPING = {
   //  Map gender to API endpoint
+  main: "main",
   women: "women",
   men: "men",
   kids: "children",
