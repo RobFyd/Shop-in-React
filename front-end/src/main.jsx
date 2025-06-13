@@ -29,10 +29,10 @@ const router = createBrowserRouter([
         element: <MainPage />,
         loader: mainPageLoader,
       },
-      // {
-      //   path: "/products",
-      //   element: <ProductsList />,
-      // },
+      {
+        path: "/:gender/:category",
+        element: <ProductsList />,
+      },
       // {
       //   path: "/products/:id",
       //   element: <ProductDetails />,
