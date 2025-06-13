@@ -168,15 +168,13 @@ export function ProductsList() {
   ];
 
   return (
-    <Layout>
-      <FlexContainer>
-        <ExpandableMenu />
-        <div>
-          <Breadcrumbs />
-          <Products products={products} headerText="Sweaters" />
-          <Pagination numberOfPages={5} />
-        </div>
-      </FlexContainer>
-    </Layout>
+    <FlexContainer>
+      <ExpandableMenu />
+      <div>
+        <Breadcrumbs />
+        <Products products={products} headerText="Sweaters" />
+        <Pagination numberOfPages={5} />
+      </div>
+    </FlexContainer>
   );
 }
