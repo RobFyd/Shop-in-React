@@ -1,9 +1,11 @@
 import styles from "./ExpandableMenu.module.css";
 import { CATEGORIES } from "../../constants/categories";
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import ARROW_ICON from "../../assets/arrow.svg";
 
 export function ExpandableMenu() {
+  const params = useParams();
+
   const activePath = "clothes";
   return (
     <div className={styles.expandableMenu}>
