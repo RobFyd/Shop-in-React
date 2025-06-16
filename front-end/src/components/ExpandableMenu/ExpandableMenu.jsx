@@ -6,7 +6,7 @@ import ARROW_ICON from "../../assets/arrow.svg";
 export function ExpandableMenu() {
   const params = useParams();
 
-  const activePath = "clothes";
+  const activePath = params.category;
   return (
     <div className={styles.expandableMenu}>
       <p>Women</p>
