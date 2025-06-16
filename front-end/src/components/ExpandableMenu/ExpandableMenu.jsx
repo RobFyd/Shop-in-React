@@ -3,13 +3,20 @@ import { CATEGORIES } from "../../constants/categories";
 import { NavLink, useParams } from "react-router-dom";
 import ARROW_ICON from "../../assets/arrow.svg";
 
+const PATH_TO_GENDER_NAME = {
+  main: "",
+  women: "Women",
+  men: "Men",
+  kids: "Kids",
+};
+
 export function ExpandableMenu() {
   const params = useParams();
 
   const activePath = params.category;
   return (
     <div className={styles.expandableMenu}>
-      <p>Women</p>
+      <p>{PATH_TO_GENDER_NAME[params.gender]}</p>
       <ul>
         {CATEGORIES.map((category) => {
           return (
