@@ -14,7 +14,7 @@ export function ExpandableMenu() {
         {CATEGORIES.map((category) => {
           return (
             <li key={category.path}>
-              <NavLink to={category.path}>
+              <NavLink to={`/${params.gender}/${category.path}`}>
                 {category.categoryName}{" "}
                 <img
                   src={ARROW_ICON}
