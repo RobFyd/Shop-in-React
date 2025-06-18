@@ -4,10 +4,11 @@ import { CATEGORIES } from "../constants/categories";
 
 export function productListLoader({ params: { gender, category } }) {
   const foundCategory = CATEGORIES.find((c) => c.path === category);
+  const foundGender = PATH_TO_ENDPOINT_MAPPING[gender];
 
-  if (foundCategory) {
+  if (foundGender && foundCategory) {
     return fetch(
-      `${BACK_END_URL}/products/?gender=${PATH_TO_ENDPOINT_MAPPING[gender]}&category=${category}`
+      `${BACK_END_URL}/products/?gender=${foundGender}&category=${category}`
     );
   } else {
     redirect("/main");
