@@ -10,6 +10,7 @@ import { ProductsList } from "./views/ProductsList/ProductsList.jsx";
 import { ProductDetails } from "./views/ProductDetails/ProductDetails.jsx";
 import { Layout } from "./components/Layout/Layout.jsx";
 import { mainPageLoader } from "./api/mainPageLoader.js";
+import { productListLoader } from "./api/productListLoader.js";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,7 @@ const router = createBrowserRouter([
       {
         path: "/:gender/:category",
         element: <ProductsList />,
+        loader: productListLoader,
       },
       // {
       //   path: "/products/:id",
