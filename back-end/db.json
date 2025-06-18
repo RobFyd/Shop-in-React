@@ -4,7 +4,7 @@
       {
         "id": 26,
         "gender": "women",
-        "category": "obuwie",
+        "category": "footwear",
         "subcategory": "eleganckie",
         "productName": "Szpilki",
         "brand": "Test producent",
@@ -21,7 +21,7 @@
       {
         "id": 27,
         "gender": "women",
-        "category": "obuwie",
+        "category": "footwear",
         "subcategory": "eleganckie",
         "productName": "Szpilki 2",
         "brand": "Inny proucent",
@@ -38,7 +38,7 @@
       {
         "id": 28,
         "gender": "women",
-        "category": "odziez",
+        "category": "clothes",
         "subcategory": "koszulki",
         "productName": "Biały Sweter",
         "brand": "Sun zi",
@@ -55,7 +55,7 @@
       {
         "id": 29,
         "gender": "women",
-        "category": "odziez",
+        "category": "clothes",
         "subcategory": "spodnie",
         "productName": "Spodnie",
         "brand": "Shin-tzu",
@@ -79,7 +79,7 @@
       {
         "id": 26,
         "gender": "women",
-        "category": "obuwie",
+        "category": "footwear",
         "subcategory": "eleganckie",
         "productName": "Szpilki",
         "brand": "Test producent",
@@ -96,7 +96,7 @@
       {
         "id": 27,
         "gender": "women",
-        "category": "obuwie",
+        "category": "footwear",
         "subcategory": "eleganckie",
         "productName": "Szpilki 2",
         "brand": "Inny proucent",
@@ -113,7 +113,7 @@
       {
         "id": 28,
         "gender": "women",
-        "category": "odziez",
+        "category": "clothes",
         "subcategory": "koszulki",
         "productName": "Biały Sweter",
         "brand": "Sun zi",
@@ -130,7 +130,7 @@
       {
         "id": 29,
         "gender": "women",
-        "category": "odziez",
+        "category": "clothes",
         "subcategory": "spodnie",
         "productName": "Spodnie",
         "brand": "Shin-tzu",
@@ -154,7 +154,7 @@
       {
         "id": 1,
         "gender": "men",
-        "category": "odziez",
+        "category": "clothes",
         "subcategory": "koszulki",
         "productName": "T-Shirt",
         "brand": "Top Brand",
@@ -171,7 +171,7 @@
       {
         "id": 2,
         "gender": "men",
-        "category": "odziez",
+        "category": "clothes",
         "subcategory": "koszulki",
         "productName": "T-Shirt",
         "brand": "Top Brand",
@@ -188,7 +188,7 @@
       {
         "id": 3,
         "gender": "men",
-        "category": "odziez",
+        "category": "clothes",
         "subcategory": "koszulki",
         "productName": "T-shirt 2",
         "brand": "Sun Tzu",
@@ -205,7 +205,7 @@
       {
         "id": 4,
         "gender": "men",
-        "category": "odziez",
+        "category": "clothes",
         "subcategory": "koszulki",
         "productName": "T-shirt 3",
         "brand": "Sun Tzu",
@@ -229,7 +229,7 @@
       {
         "id": 30,
         "gender": "children",
-        "category": "obuwie",
+        "category": "footwear",
         "subcategory": "eleganckie",
         "productName": "Piękne butki",
         "brand": "Producent 1",
@@ -246,7 +246,7 @@
       {
         "id": 31,
         "gender": "children",
-        "category": "obuwie",
+        "category": "footwear",
         "subcategory": "sneakersy",
         "productName": "Szybkie butki",
         "brand": "Producent 2",
@@ -263,7 +263,7 @@
       {
         "id": 32,
         "gender": "children",
-        "category": "odziez",
+        "category": "clothes",
         "subcategory": "spodnie",
         "productName": "Niebieskie spodnie",
         "brand": "Sun zi",
@@ -280,7 +280,7 @@
       {
         "id": 33,
         "gender": "children",
-        "category": "odziez",
+        "category": "clothes",
         "subcategory": "spodnie",
         "productName": "Różowe spodnie",
         "brand": "Sun zi",
@@ -303,7 +303,7 @@
     {
       "id": 1,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-Shirt",
       "brand": "Top Brand",
@@ -320,7 +320,7 @@
     {
       "id": 2,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-Shirt",
       "brand": "Top Brand",
@@ -337,7 +337,7 @@
     {
       "id": 3,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 2",
       "brand": "Sun Tzu",
@@ -354,7 +354,7 @@
     {
       "id": 4,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 3",
       "brand": "Sun Tzu",
@@ -371,7 +371,7 @@
     {
       "id": 5,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 4",
       "brand": "Sun Tzu",
@@ -388,7 +388,7 @@
     {
       "id": 6,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-Shirt",
       "brand": "Top Brand",
@@ -405,7 +405,7 @@
     {
       "id": 7,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 2",
       "brand": "Sun Tzu",
@@ -422,7 +422,7 @@
     {
       "id": 8,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 3",
       "brand": "Sun Tzu",
@@ -439,7 +439,7 @@
     {
       "id": 9,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 4",
       "brand": "Sun Tzu",
@@ -456,7 +456,7 @@
     {
       "id": 10,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-Shirt",
       "brand": "Top Brand",
@@ -473,7 +473,7 @@
     {
       "id": 11,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 2",
       "brand": "Sun Tzu",
@@ -490,7 +490,7 @@
     {
       "id": 12,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 3",
       "brand": "Sun Tzu",
@@ -507,7 +507,7 @@
     {
       "id": 13,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 4",
       "brand": "Sun Tzu",
@@ -524,7 +524,7 @@
     {
       "id": 14,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-Shirt",
       "brand": "Top Brand",
@@ -541,7 +541,7 @@
     {
       "id": 15,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 2",
       "brand": "Sun Tzu",
@@ -558,7 +558,7 @@
     {
       "id": 16,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 3",
       "brand": "Sun Tzu",
@@ -575,7 +575,7 @@
     {
       "id": 17,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 4",
       "brand": "Sun Tzu",
@@ -592,7 +592,7 @@
     {
       "id": 18,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-Shirt",
       "brand": "Top Brand",
@@ -609,7 +609,7 @@
     {
       "id": 19,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 2",
       "brand": "Sun Tzu",
@@ -626,7 +626,7 @@
     {
       "id": 20,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 3",
       "brand": "Sun Tzu",
@@ -643,7 +643,7 @@
     {
       "id": 21,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 4",
       "brand": "Sun Tzu",
@@ -660,7 +660,7 @@
     {
       "id": 22,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-Shirt",
       "brand": "Top Brand",
@@ -677,7 +677,7 @@
     {
       "id": 23,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 2",
       "brand": "Sun Tzu",
@@ -694,7 +694,7 @@
     {
       "id": 24,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 3",
       "brand": "Sun Tzu",
@@ -711,7 +711,7 @@
     {
       "id": 25,
       "gender": "men",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "T-shirt 4",
       "brand": "Sun Tzu",
@@ -728,7 +728,7 @@
     {
       "id": 26,
       "gender": "women",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Szpilki",
       "brand": "Test producent",
@@ -744,7 +744,7 @@
     {
       "id": 27,
       "gender": "women",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Szpilki 2",
       "brand": "Inny proucent",
@@ -761,7 +761,7 @@
     {
       "id": 28,
       "gender": "women",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "swetry",
       "productName": "Biały Sweter",
       "brand": "Sun zi",
@@ -778,7 +778,7 @@
     {
       "id": 29,
       "gender": "women",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Spodnie",
       "brand": "Shin-tzu",
@@ -795,7 +795,7 @@
     {
       "id": 34,
       "gender": "women",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Szpilki",
       "brand": "Test producent",
@@ -812,7 +812,7 @@
     {
       "id": 312,
       "gender": "women",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "Biały Sweter",
       "brand": "Sun zi",
@@ -829,7 +829,7 @@
     {
       "id": 36,
       "gender": "women",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "Biały Sweter",
       "brand": "Sun zi",
@@ -846,7 +846,7 @@
     {
       "id": 37,
       "gender": "women",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Spodnie",
       "brand": "Shin-tzu",
@@ -863,7 +863,7 @@
     {
       "id": 388,
       "gender": "women",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Szpilki 2",
       "brand": "Inny proucent",
@@ -880,7 +880,7 @@
     {
       "id": 39,
       "gender": "women",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "Biały Sweter",
       "brand": "Sun zi",
@@ -897,7 +897,7 @@
     {
       "id": 40,
       "gender": "women",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Spodnie",
       "brand": "Shin-tzu",
@@ -914,7 +914,7 @@
     {
       "id": 41,
       "gender": "women",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Szpilki",
       "brand": "Test producent",
@@ -931,7 +931,7 @@
     {
       "id": 42,
       "gender": "women",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Szpilki 2",
       "brand": "Inny proucent",
@@ -948,7 +948,7 @@
     {
       "id": 43,
       "gender": "women",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "koszulki",
       "productName": "Biały Sweter",
       "brand": "Sun zi",
@@ -965,7 +965,7 @@
     {
       "id": 44,
       "gender": "women",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Spodnie",
       "brand": "Shin-tzu",
@@ -982,7 +982,7 @@
     {
       "id": 38,
       "gender": "women",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Szpilki 2",
       "brand": "Inny proucent",
@@ -999,7 +999,7 @@
     {
       "id": 45,
       "gender": "women",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "swetry",
       "productName": "Biały Sweter",
       "brand": "Sun zi",
@@ -1016,7 +1016,7 @@
     {
       "id": 46,
       "gender": "women",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Spodnie",
       "brand": "Shin-tzu",
@@ -1033,7 +1033,7 @@
     {
       "id": 30,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
       "brand": "Producent 1",
@@ -1050,7 +1050,7 @@
     {
       "id": 31,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
       "brand": "Producent 2",
@@ -1067,7 +1067,7 @@
     {
       "id": 32,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Niebieskie spodnie",
       "brand": "Sun zi",
@@ -1084,7 +1084,7 @@
     {
       "id": 33,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Różowe spodnie",
       "brand": "Sun zi",
@@ -1101,7 +1101,7 @@
     {
       "id": 46,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
       "brand": "Producent 1",
@@ -1118,7 +1118,7 @@
     {
       "id": 47,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
       "brand": "Producent 2",
@@ -1135,7 +1135,7 @@
     {
       "id": 48,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Niebieskie spodnie",
       "brand": "Sun zi",
@@ -1152,7 +1152,7 @@
     {
       "id": 49,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Różowe spodnie",
       "brand": "Sun zi",
@@ -1169,7 +1169,7 @@
     {
       "id": 51,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
       "brand": "Producent 1",
@@ -1186,7 +1186,7 @@
     {
       "id": 52,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
       "brand": "Producent 2",
@@ -1203,7 +1203,7 @@
     {
       "id": 53,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Niebieskie spodnie",
       "brand": "Sun zi",
@@ -1220,7 +1220,7 @@
     {
       "id": 54,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Różowe spodnie",
       "brand": "Sun zi",
@@ -1237,7 +1237,7 @@
     {
       "id": 56,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
       "brand": "Producent 1",
@@ -1254,7 +1254,7 @@
     {
       "id": 57,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
       "brand": "Producent 2",
@@ -1271,7 +1271,7 @@
     {
       "id": 58,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Niebieskie spodnie",
       "brand": "Sun zi",
@@ -1288,7 +1288,7 @@
     {
       "id": 59,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Różowe spodnie",
       "brand": "Sun zi",
@@ -1305,7 +1305,7 @@
     {
       "id": 61,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
       "brand": "Producent 1",
@@ -1322,7 +1322,7 @@
     {
       "id": 62,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
       "brand": "Producent 2",
@@ -1339,7 +1339,7 @@
     {
       "id": 63,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Niebieskie spodnie",
       "brand": "Sun zi",
@@ -1356,7 +1356,7 @@
     {
       "id": 64,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Różowe spodnie",
       "brand": "Sun zi",
@@ -1373,7 +1373,7 @@
     {
       "id": 66,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
       "brand": "Producent 1",
@@ -1390,7 +1390,7 @@
     {
       "id": 67,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
       "brand": "Producent 2",
@@ -1407,7 +1407,7 @@
     {
       "id": 68,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Niebieskie spodnie",
       "brand": "Sun zi",
@@ -1424,7 +1424,7 @@
     {
       "id": 69,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Różowe spodnie",
       "brand": "Sun zi",
@@ -1441,7 +1441,7 @@
     {
       "id": 71,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "eleganckie",
       "productName": "Piękne butki",
       "brand": "Producent 1",
@@ -1458,7 +1458,7 @@
     {
       "id": 72,
       "gender": "children",
-      "category": "obuwie",
+      "category": "footwear",
       "subcategory": "sneakersy",
       "productName": "Szybkie butki",
       "brand": "Producent 2",
@@ -1475,7 +1475,7 @@
     {
       "id": 73,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Niebieskie spodnie",
       "brand": "Sun zi",
@@ -1492,7 +1492,7 @@
     {
       "id": 74,
       "gender": "children",
-      "category": "odziez",
+      "category": "clothes",
       "subcategory": "spodnie",
       "productName": "Różowe spodnie",
       "brand": "Sun zi",
