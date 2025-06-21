@@ -12,12 +12,27 @@ export function ProductsList() {
 
   const foundCategory = CATEGORIES.find((c) => c.path === params.category);
 
+  let foundSubcategory;
+
+  if (params.subcategory) {
+    foundSubcategory = foundCategory.subcategories.find(
+      (sc) => sc.path === params.subcategory
+    );
+  }
+
   return (
     <FlexContainer>
       <ExpandableMenu />
       <div>
         <Breadcrumbs />
-        <Products headerText={foundCategory.categoryName} products={products} />
+        <Products
+          headerText={
+            foundSubcategory
+              ? foundSubcategory.categoryName
+              : foundCategory.categoryName
+          }
+          products={products}
+        />
         <Pagination numberOfPages={5} />
       </div>
     </FlexContainer>
