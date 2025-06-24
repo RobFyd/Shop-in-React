@@ -22,6 +22,8 @@ export function productListLoader({
       }
     }
 
+    url = `${url}&_limit=8&_page=1`;
+
     return fetch(url);
   } else {
     redirect("/main");
