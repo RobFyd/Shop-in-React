@@ -160,6 +160,7 @@
         "brand": "Top Brand",
         "pricePLN": 49,
         "priceUSD": 10,
+        "priceGBP": 0.01,
         "photos": [
           "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
           "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
@@ -177,6 +178,7 @@
         "brand": "Top Brand",
         "pricePLN": 49,
         "priceUSD": 10,
+        "priceGBP": 0.01,
         "photos": [
           "http://localhost:3000/product-photos/man-t-shirt-1.jpg",
           "http://localhost:3000/product-photos/man-t-shirt-4.jpg",
