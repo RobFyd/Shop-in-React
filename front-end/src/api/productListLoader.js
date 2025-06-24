@@ -24,7 +24,19 @@ export function productListLoader({
 
     url = `${url}&_limit=8&_page=1`;
 
-    return fetch(url);
+    return fetch(url).then((response) => {
+      const numberOfPages = Math.ceil(
+        Number(response.headers.get("X-Total-Count")) / 8
+      );
+      console.log(numberOfPages);
+
+      return response.json().then((products) => {
+        return {
+          products,
+          numberOfPages,
+        };
+      });
+    });
   } else {
     redirect("/main");
   }
