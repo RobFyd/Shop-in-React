@@ -21,12 +21,23 @@ export function Breadcrumbs() {
     },
   ];
 
+  if (subcategory) {
+    const foundSubcategory = foundCategory.subcategories.find(
+      (sc) => sc.path === subcategory
+    );
+
+    breadcrumbs.push({
+      categoryName: foundSubcategory.categoryName,
+      path: `${foundGender.path}/${foundCategory.path}/${foundSubcategory.path}`,
+    });
+  }
+
   return (
     <ul className={style.breadcrumbs}>
       {breadcrumbs.map((breadcrumb) => {
         return (
           <li key={breadcrumb.path}>
-            <NavLink to={breadcrumb.path}>
+            <NavLink end to={breadcrumb.path}>
               {breadcrumb.categoryName} <img src={ARROW_ICON} />
             </NavLink>
           </li>
