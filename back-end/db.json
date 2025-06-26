@@ -812,7 +812,7 @@
       "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
     },
     {
-      "id": 312,
+      "id": 35,
       "gender": "women",
       "category": "clothes",
       "subcategory": "t-shirts",
@@ -1494,6 +1494,23 @@
     {
       "id": 74,
       "gender": "children",
+      "category": "clothes",
+      "subcategory": "pants",
+      "productName": "Różowe pants",
+      "brand": "Sun zi",
+      "pricePLN": 599,
+      "priceUSD": 119,
+      "photos": [
+        "http://localhost:3000/product-photos/children-trousers-2.jpg",
+        "http://localhost:3000/product-photos/children-trousers-3.jpg",
+        "http://localhost:3000/product-photos/children-trousers-1.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
+      "maintenanceInfo": "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu"
+    },
+    {
+      "id": 75,
+      "gender": "main",
       "category": "clothes",
       "subcategory": "pants",
       "productName": "Różowe pants",
