@@ -1,5 +1,9 @@
 export const GENDERS = [
   {
+    categoryName: "Main",
+    path: "main",
+  },
+  {
     categoryName: "Women",
     path: "women",
   },
