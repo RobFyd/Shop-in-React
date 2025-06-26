@@ -1,20 +1,23 @@
 import style from "./Breadcrumbs.module.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import ARROW_ICON from "../../assets/arrow.svg";
+import { CATEGORIES, GENDERS } from "../../constants/categories";
 
 export function Breadcrumbs() {
+  const { gender, category, subcategory } = useParams();
+  console.log(gender, category, subcategory);
+
+  const foundGender = GENDERS.find((g) => g.path === gender);
+  const foundCategory = CATEGORIES.find((c) => c.path === category);
+
   const breadcrumbs = [
     {
-      categoryName: "Women",
-      path: "women",
+      categoryName: foundGender.categoryName,
+      path: `/${foundGender.path}`,
     },
     {
-      categoryName: "Clothes",
-      path: "clothes",
-    },
-    {
-      categoryName: "Sweaters",
-      parh: "sweaters",
+      categoryName: foundCategory.categoryName,
+      path: `${foundGender.path}/${foundCategory.path}`,
     },
   ];
 
