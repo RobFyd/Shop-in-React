@@ -1,10 +1,18 @@
 import styles from "./Product.module.css";
 import { Link } from "react-router-dom";
 
+const ENDPOINT_TO_PATH_MAPPING = {
+  women: "women",
+  men: "men",
+  children: "children",
+};
+
 export function Product({ product }) {
   return (
     <Link
-      to={`/${product.gender}/${product.category}/${product.subcategory}/${product.id}`}
+      to={`/${ENDPOINT_TO_PATH_MAPPING[product.gender]}/${product.category}/${
+        product.subcategory
+      }/${product.id}`}
       className={styles.product}
     >
       <img src={product.photos[0]} />
