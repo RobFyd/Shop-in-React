@@ -3,28 +3,10 @@ import { ExpandableMenu } from "../../components/ExpandableMenu/ExpandableMenu";
 import { Breadcrumbs } from "../../components/Breadcrumbs/Breadcrumbs";
 import { Photos } from "../../components/Photos/Photos";
 import { Details } from "../../components/Details/Details";
+import { useLoaderData } from "react-router-dom";
 
 export function ProductDetails() {
-  const product = {
-    id: 1,
-    gender: "men",
-    category: "odziez",
-    subcategory: "koszulki",
-    productName: "T-Shirt",
-    brand: "Top Brand",
-    pricePLN: 49,
-    priceUSD: 10,
-    priceGBP: 19.99,
-    photos: [
-      "http://localhost:3000/product-photos/LS4.png",
-      "http://localhost:3000/product-photos/LS3.png",
-      "http://localhost:3000/product-photos/LS2.png",
-    ],
-    description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla facilis aperiam, magnam dolorum sit expedita nihil nostrum, voluptates temporibus voluptatum atque ullam molestiae provident dolore eligendi? Esse amet dolore illum.",
-    maintenanceInfo:
-      "Nemo et nam quasi in suscipit earum odit laborum repellat quo dolore rem, sequi eaque sapiente quibu",
-  };
+  const product = useLoaderData();
 
   return (
     <FlexContainer>
