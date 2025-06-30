@@ -1,10 +1,11 @@
+import { Children } from "react";
 import styles from "./Product.module.css";
 import { Link } from "react-router-dom";
 
 const ENDPOINT_TO_PATH_MAPPING = {
   women: "women",
   men: "men",
-  children: "children",
+  children: "kids",
 };
 
 export function Product({ product }) {
