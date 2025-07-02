@@ -19,7 +19,13 @@ export function Product({ product }) {
       <img src={product.photos[0]} />
       <h3>{product.productName}</h3>
       <p>{product.priceGBP}£</p>
-      <Form>
+      <Form
+        onClick={(e) => {
+          e.stopPropagation();
+        }}
+        method="POST"
+        action={`/add-to-favorites/${product.id}`}
+      >
         <button>
           <div className={styles.heart}></div>
         </button>
