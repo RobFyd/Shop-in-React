@@ -16,6 +16,10 @@ import { addProductToFavouritesAction } from "./api/addProductToFavouritesAction
 
 const router = createBrowserRouter([
   {
+    path: "/add-to-favorites/:productId",
+    action: addProductToFavouritesAction,
+  },
+  {
     path: "",
     element: <Layout />,
     children: [
