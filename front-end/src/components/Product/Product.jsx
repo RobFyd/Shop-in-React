@@ -1,6 +1,5 @@
-import { Children } from "react";
 import styles from "./Product.module.css";
-import { Link, Form } from "react-router-dom";
+import { Link, useFetcher } from "react-router-dom";
 
 const ENDPOINT_TO_PATH_MAPPING = {
   women: "women",
@@ -9,6 +8,7 @@ const ENDPOINT_TO_PATH_MAPPING = {
 };
 
 export function Product({ product }) {
+  const { Form } = useFetcher();
   return (
     <Link
       to={`/${ENDPOINT_TO_PATH_MAPPING[product.gender]}/${product.category}/${
