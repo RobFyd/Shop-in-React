@@ -6,6 +6,8 @@ const ENDPOINT_TO_PATH_MAPPING = {
   women: "women",
   men: "men",
   children: "kids",
+  unisex: "unisex",
+  accessories: "accessories",
 };
 
 export function Product({ product }) {
