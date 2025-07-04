@@ -1,1 +1,1 @@
-export function addProductToFavouritesAction() {}
+export function addProductToFavourites() {}
