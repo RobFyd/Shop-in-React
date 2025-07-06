@@ -13,6 +13,7 @@ import { mainPageLoader } from "./api/mainPageLoader.js";
 import { productListLoader } from "./api/productListLoader.js";
 import { productLoader } from "./api/productLoader.js";
 import { addProductToFavourites } from "./api/addProductToFavouritesAction.js";
+import { favouritesLoader } from "./api/favouritesLoader.js";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,7 @@ const router = createBrowserRouter([
       {
         path: "/favorites",
         element: <Favorites />,
+        loader: favouritesLoader,
       },
       {
         path: "/:gender?",
