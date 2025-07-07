@@ -3,5 +3,5 @@ import { FavoritesList } from "../../components/FavoritesList/FavoritesList";
 
 export function Favorites() {
   const favoritesProducts = useLoaderData();
-  return <FavoritesList products={favoritesProducts} />;
+  return <FavoritesList favourites={favoritesProducts} />;
 }
