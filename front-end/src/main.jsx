@@ -5,7 +5,7 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { MainPage } from "./views/MainPage/MainPage.jsx";
 import { Cart } from "./views/Cart/Cart.jsx";
-import { Favorites } from "./views/Favorites/Favorites.jsx";
+import { Favourites } from "./views/Favourites/Favourites.jsx";
 import { ProductsList } from "./views/ProductsList/ProductsList.jsx";
 import { ProductDetails } from "./views/ProductDetails/ProductDetails.jsx";
 import { Layout } from "./components/Layout/Layout.jsx";
@@ -18,11 +18,11 @@ import { deleteFavouriteAction } from "./api/deleteFavouriteAction.js";
 
 const router = createBrowserRouter([
   {
-    path: "/add-to-favorites/:productId",
+    path: "/add-to-favourites/:productId",
     action: addProductToFavourites,
   },
   {
-    path: "/delete-from-favorites/:favouriteId",
+    path: "/delete-from-favourites/:favouriteId",
     action: deleteFavouriteAction,
   },
   {
@@ -34,8 +34,8 @@ const router = createBrowserRouter([
         element: <Cart />,
       },
       {
-        path: "/favorites",
-        element: <Favorites />,
+        path: "/favourites",
+        element: <Favourites />,
         loader: favouritesLoader,
       },
       {
