@@ -9,6 +9,7 @@ const ENDPOINT_TO_PATH_MAPPING = {
 
 export function Product({ product }) {
   const { Form } = useFetcher();
+
   return (
     <Link
       to={`/${ENDPOINT_TO_PATH_MAPPING[product.gender]}/${product.category}/${
@@ -24,7 +25,7 @@ export function Product({ product }) {
           e.stopPropagation();
         }}
         method="POST"
-        action={`/add-to-favorites/${product.id}`}
+        action={`/add-to-favourites/${product.id}`}
       >
         <button>
           <div className={styles.heart}></div>
