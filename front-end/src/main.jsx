@@ -34,7 +34,7 @@ const router = createBrowserRouter([
         element: <Cart />,
       },
       {
-        path: "/favourites",
+        path: "/favorites",
         element: <Favourites />,
         loader: favouritesLoader,
       },
