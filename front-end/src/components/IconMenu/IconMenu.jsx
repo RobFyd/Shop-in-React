@@ -9,7 +9,7 @@ export function IconMenu() {
   return (
     <ul className={styles.iconMenu}>
       <li>
-        <Link to="/favorites">
+        <Link to="/favourites">
           <img src={HEART} />
         </Link>
       </li>
