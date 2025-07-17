@@ -5,7 +5,7 @@ import { CartProduct } from "../CartProduct/CartProduct";
 export function CartProductsList({ products }) {
   return (
     <CenteredContent>
-      <div className={styles.favoritesList}>
+      <div className={styles.favouritesList}>
         <h2>Basket</h2>
         <div>
           {products.map((product) => {
