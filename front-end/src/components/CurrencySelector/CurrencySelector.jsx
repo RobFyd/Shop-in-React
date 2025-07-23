@@ -8,7 +8,6 @@ export function CurrencySelector() {
   return (
     <select
       onChange={(e) => {
-        console.log(e.currentTarget.value);
         setCurrency(e.currentTarget.value);
       }}
       className={styles.currencySelector}
