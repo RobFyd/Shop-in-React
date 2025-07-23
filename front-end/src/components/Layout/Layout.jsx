@@ -8,6 +8,8 @@ import { CategoryMenu } from "../CategoryMenu/CategoryMenu";
 import { MainContent } from "../MainContent/MainContent";
 import { Outlet } from "react-router-dom";
 import { CurrencyContext } from "../../contexts/CurrencyContext";
+import { useState } from "react";
+import { CURRENCIES } from "../../constants/currencies";
 
 export function Layout() {
   const [currency, setCurrency] = useState(CURRENCIES.GBP);
