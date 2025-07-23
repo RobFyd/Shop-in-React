@@ -7,23 +7,27 @@ import { TopBar } from "../TopBar/TopBar";
 import { CategoryMenu } from "../CategoryMenu/CategoryMenu";
 import { MainContent } from "../MainContent/MainContent";
 import { Outlet } from "react-router-dom";
+import { CurrencyContext } from "../../contexts/CurrencyContext";
 
 export function Layout() {
+  const [currency, setCurrency] = useState(CURRENCIES.GBP);
   return (
     <>
-      <MainContent>
-        <TopBar>
-          <MainMenu />
-          <Logo />
-          <div>
-            <CurrencySelector />
-            <IconMenu />
-          </div>
-        </TopBar>
-        <CategoryMenu />
-        <Outlet />
-      </MainContent>
-      <Footer />
+      <CurrencyContext.Provider value={[currency, setCurrency]}>
+        <MainContent>
+          <TopBar>
+            <MainMenu />
+            <Logo />
+            <div>
+              <CurrencySelector />
+              <IconMenu />
+            </div>
+          </TopBar>
+          <CategoryMenu />
+          <Outlet />
+        </MainContent>
+        <Footer />
+      </CurrencyContext.Provider>
     </>
   );
 }
