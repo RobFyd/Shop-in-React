@@ -1,7 +1,9 @@
+import { useState } from "react";
 import { CURRENCIES } from "../../constants/currencies";
 import styles from "./CurrencySelector.module.css";
 
 export function CurrencySelector() {
+  const [currency, setCurrency] = useState();
   return (
     <select className={styles.currencySelector}>
       <option value={CURRENCIES.GBP}>{CURRENCIES.GBP}</option>
