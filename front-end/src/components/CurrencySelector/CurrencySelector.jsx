@@ -1,7 +1,7 @@
+import styles from "./CurrencySelector.module.css";
 import { CURRENCIES } from "../../constants/currencies";
 import { useContext } from "react";
 import { CurrencyContext } from "../../contexts/CurrencyContext";
-import styles from "./CurrencySelector.module.css";
 
 export function CurrencySelector() {
   const [currency, setCurrency] = useContext(CurrencyContext);
