@@ -3,6 +3,7 @@ import { Link, useFetcher } from "react-router-dom";
 import { useContext } from "react";
 import { CurrencyContext } from "../../contexts/CurrencyContext";
 import { CURRENCIES } from "../../constants/currencies";
+import { CURRENCY_SIGN } from "../../constants/currencies.js";
 
 const ENDPOINT_TO_PATH_MAPPING = {
   women: "women",
@@ -24,7 +25,7 @@ export function Product({ product }) {
       <h3>{product.productName}</h3>
       <p>
         {currency === CURRENCIES.PLN ? product.pricePLN : product.priceGBP}
-        {currency === CURRENCIES.PLN ? "zł" : "£"}
+        {CURRENCY_SIGN[currency]}
       </p>
       <Form
         onClick={(e) => {
