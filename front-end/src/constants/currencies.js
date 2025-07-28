@@ -1,6 +1,13 @@
 export const CURRENCIES = {
   GBP: "GBP",
-  USD: "USD",
   PLN: "PLN",
-  EUR: "EUR",
+  // USD: "USD",
+  // EUR: "EUR",
+};
+
+export const CURRENCY_SIGN = {
+  GBP: "£",
+  PLN: "zł",
+  // USD: "$",
+  // EUR: "€",
 };
