@@ -22,7 +22,10 @@ export function Product({ product }) {
     >
       <img src={product.photos[0]} />
       <h3>{product.productName}</h3>
-      <p>{currency === CURRENCIES.PLN ? product.pricePLN : product.priceGBP}</p>
+      <p>
+        {currency === CURRENCIES.PLN ? product.pricePLN : product.priceGBP}
+        {currency === CURRENCIES.PLN ? "zł" : "£"}
+      </p>
       <Form
         onClick={(e) => {
           e.stopPropagation();
