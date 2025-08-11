@@ -6,18 +6,20 @@ import { CurrencyContext } from "../../contexts/CurrencyContext";
 import { CURRENCIES } from "../../constants/currencies";
 
 export function CartSummary({ products }) {
-  const deliverySums = {
+  const [currency] = useContext(CurrencyContext);
+
+  const deliveryCosts = {
     [CURRENCIES.GBP]: 10,
     [CURRENCIES.PLN]: 50,
   };
 
   const minSumsForFreeDelivery = {
     [CURRENCIES.GBP]: 100,
-    [CURRENCIES.PLN]: 500,
+    [CURRENCIES.PLN]: 250,
   };
 
-  const deliveryCost = 10;
-  const minSumForFreeDelivery = 250;
+  const deliveryCost = deliveryCosts[currency];
+  const minSumForFreeDelivery = minSumsForFreeDelivery[currency];
 
   let sum = 0;
   products.forEach((product) => {
