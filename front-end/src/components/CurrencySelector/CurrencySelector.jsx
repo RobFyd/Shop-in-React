@@ -15,7 +15,7 @@ export function CurrencySelector() {
     >
       <option value={CURRENCIES.GBP}>{CURRENCIES.GBP}</option>
       <option value={CURRENCIES.PLN}>{CURRENCIES.PLN}</option>
-      <option value={CURRENCIES.USD}>{CURRENCIES.USD}</option>
+      {/* <option value={CURRENCIES.USD}>{CURRENCIES.USD}</option> */}
     </select>
   );
 }
