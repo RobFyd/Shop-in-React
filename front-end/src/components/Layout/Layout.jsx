@@ -10,11 +10,15 @@ import { Outlet } from "react-router-dom";
 import { CurrencyContext } from "../../contexts/CurrencyContext";
 import { useState } from "react";
 import { CURRENCIES } from "../../constants/currencies";
+import { CartContext } from "../../contexts/CartContext";
 
 export function Layout() {
   const [currency, setCurrency] = useState(
     localStorage["selected_currency"] || CURRENCIES.PLN
   );
+
+  const [cartItems, setCartItems] = useState([]);
+
   return (
     <>
       <CurrencyContext.Provider value={[currency, setCurrency]}>
