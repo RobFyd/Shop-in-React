@@ -21,21 +21,23 @@ export function Layout() {
 
   return (
     <>
-      <CurrencyContext.Provider value={[currency, setCurrency]}>
-        <MainContent>
-          <TopBar>
-            <MainMenu />
-            <Logo />
-            <div>
-              <CurrencySelector />
-              <IconMenu />
-            </div>
-          </TopBar>
-          <CategoryMenu />
-          <Outlet />
-        </MainContent>
-        <Footer />
-      </CurrencyContext.Provider>
+      <CartContext.Provider value={[cartItems, setCartItems]}>
+        <CurrencyContext.Provider value={[currency, setCurrency]}>
+          <MainContent>
+            <TopBar>
+              <MainMenu />
+              <Logo />
+              <div>
+                <CurrencySelector />
+                <IconMenu />
+              </div>
+            </TopBar>
+            <CategoryMenu />
+            <Outlet />
+          </MainContent>
+          <Footer />
+        </CurrencyContext.Provider>
+      </CartContext.Provider>
     </>
   );
 }
