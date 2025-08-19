@@ -7,7 +7,7 @@ import { useContext } from "react";
 import { CartContext } from "../../contexts/CartContext";
 
 export function Details({ product }) {
-  const [cartItems, setCartItems] = useContext(CartContext);
+  const [, addProductToCart] = useContext(CartContext);
 
   const accordionContent = [
     {
@@ -29,9 +29,7 @@ export function Details({ product }) {
       <FullWidthButton
         isBlack={true}
         onClick={() => {
-          setCartItems((previousCartItems) => {
-            return [...previousCartItems, product];
-          });
+          addProductToCart(product);
         }}
       >
         Add to Cart
