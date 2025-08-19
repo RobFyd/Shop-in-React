@@ -19,9 +19,15 @@ export function Layout() {
 
   const [cartItems, setCartItems] = useState([]);
 
+  function addProductToCart(product) {
+    setCartItems((previousCartItems) => {
+      return [...previousCartItems, product];
+    });
+  }
+
   return (
     <>
-      <CartContext.Provider value={[cartItems, setCartItems]}>
+      <CartContext.Provider value={[cartItems, addProductToCart]}>
         <CurrencyContext.Provider value={[currency, setCurrency]}>
           <MainContent>
             <TopBar>
