@@ -17,7 +17,11 @@ export function Layout() {
     localStorage["selected_currency"] || CURRENCIES.PLN
   );
 
-  const [cartItems, setCartItems] = useState([]);
+  const [cartItems, setCartItems] = useState(
+    localStorage["cart_products"]
+      ? JSON.parse(localStorage["cart_products"])
+      : []
+  );
 
   function addProductToCart(product) {
     setCartItems((previousCartItems) => {
