@@ -29,7 +29,9 @@ export function Details({ product }) {
       <FullWidthButton
         isBlack={true}
         onClick={() => {
-          setCartItems((previousCartItems) => [...previousCartItems, product]);
+          setCartItems((previousCartItems) => {
+            return [...previousCartItems, product];
+          });
         }}
       >
         Add to Cart
