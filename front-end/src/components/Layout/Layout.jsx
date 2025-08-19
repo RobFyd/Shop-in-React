@@ -21,7 +21,9 @@ export function Layout() {
 
   function addProductToCart(product) {
     setCartItems((previousCartItems) => {
-      return [...previousCartItems, product];
+      const newState = [...previousCartItems, product];
+      localStorage["cart_products"] = JSON.stringify(newState);
+      return newState;
     });
   }
 
