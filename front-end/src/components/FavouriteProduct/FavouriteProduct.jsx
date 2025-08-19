@@ -12,7 +12,7 @@ export function FavouriteProduct({ favourite }) {
 
   const price = <Price product={product} />;
 
-  const [, setCartItems] = useContext(CartContext);
+  const [, addProductToCart] = useContext(CartContext);
 
   return (
     <div className={styles.favouriteProduct}>
@@ -40,9 +40,7 @@ export function FavouriteProduct({ favourite }) {
           </Form>
           <button
             onClick={() => {
-              setCartItems((previousCartItems) => {
-                return [...previousCartItems, product];
-              });
+              addProductToCart(product);
             }}
           >
             <img src={BAG_ICON} alt="Add to cart" />
