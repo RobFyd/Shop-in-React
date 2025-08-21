@@ -12,8 +12,16 @@ import { useState } from "react";
 import { CURRENCIES } from "../../constants/currencies";
 import { CartContext } from "../../contexts/CartContext";
 
-function setJSONItem(key, value) {
-  localStorage.setItem(key, JSON.stringify(value));
+function setJSONToLocalStorage(key, newData) {
+  localStorage[key] = JSON.stringify(newData);
+}
+
+function getJSONFromLocalStorage(key, defaultValue) {
+  if (localStorage[key]) {
+    return JSON.parse(localStorage[key]);
+  } else {
+    return defaultValue;
+  }
 }
 
 export function Layout() {
