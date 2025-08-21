@@ -12,6 +12,10 @@ import { useState } from "react";
 import { CURRENCIES } from "../../constants/currencies";
 import { CartContext } from "../../contexts/CartContext";
 
+function setJSONItem(key, value) {
+  localStorage.setItem(key, JSON.stringify(value));
+}
+
 export function Layout() {
   const [currency, setCurrency] = useState(
     localStorage["selected_currency"] || CURRENCIES.PLN
