@@ -26,19 +26,17 @@ function getJSONFromLocalStorage(key, defaultValue) {
 
 export function Layout() {
   const [currency, setCurrency] = useState(
-    localStorage["selected_currency"] || CURRENCIES.PLN
+    getJSONFromLocalStorage("selected_currency", CURRENCIES.PLN)
   );
 
   const [cartItems, setCartItems] = useState(() => {
-    return localStorage["cart_products"]
-      ? JSON.parse(localStorage["cart_products"])
-      : [];
+    return getJSONFromLocalStorage("cart_products", []);
   });
 
   function addProductToCart(product) {
     setCartItems((previousCartItems) => {
       const newState = [...previousCartItems, product];
-      localStorage["cart_products"] = JSON.stringify(newState);
+      setJSONToLocalStorage(newState);
       return newState;
     });
   }
