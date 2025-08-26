@@ -13,5 +13,5 @@ export function useLocalStorage(key, defaultValue) {
     }
   }
 
-  const [data, setData] = useState();
+  const [data, setData] = useState(() => getJSONFromLocalStorage());
 }
