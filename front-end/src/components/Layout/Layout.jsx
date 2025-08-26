@@ -8,37 +8,21 @@ import { CategoryMenu } from "../CategoryMenu/CategoryMenu";
 import { MainContent } from "../MainContent/MainContent";
 import { Outlet } from "react-router-dom";
 import { CurrencyContext } from "../../contexts/CurrencyContext";
-import { useState } from "react";
 import { CURRENCIES } from "../../constants/currencies";
 import { CartContext } from "../../contexts/CartContext";
-
-function setJSONToLocalStorage(key, newData) {
-  localStorage[key] = JSON.stringify(newData);
-}
-
-function getJSONFromLocalStorage(key, defaultValue) {
-  if (localStorage[key]) {
-    return JSON.parse(localStorage[key]);
-  } else {
-    return defaultValue;
-  }
-}
+import { useLocalStorage } from "../../hooks/useLocalStorage";
 
 export function Layout() {
-  const [currency, setCurrency] = useState(
-    getJSONFromLocalStorage("selected_currency", CURRENCIES.PLN)
+  const [currency, setCurrency] = useLocalStorage(
+    "selected_currency",
+    CURRENCIES.PLN
   );
 
-  const [cartItems, setCartItems] = useState(() => {
-    return getJSONFromLocalStorage("cart_products", []);
-  });
+  const [cartItems, setCartItems] = useLocalStorage("cart_products", []);
 
   function addProductToCart(product) {
-    setCartItems((previousCartItems) => {
-      const newState = [...previousCartItems, product];
-      setJSONToLocalStorage(newState);
-      return newState;
-    });
+    const newState = [...cartItems, product];
+    setCartItems(newState);
   }
 
   return (
