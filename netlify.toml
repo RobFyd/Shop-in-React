@@ -1,0 +1,21 @@
+[build]
+  # Jak zbudować frontend (Vite) - zakładam, że front-end/package.json ma "build": "vite build"
+  command   = "npm run build --workspace=front-end"
+  # Gdzie Netlify ma szukać statycznych plików po buildzie
+  publish   = "front-end/dist"
+  # Gdzie leżą funkcje serverless
+  functions = "netlify/functions"
+
+# SPA fallback (React Router: odświeżenie /podstrona nie wywali 404)
+[[redirects]]
+  from = "/*"
+  to   = "/index.html"
+  status = 200
+
+# Proxy: /api/* -> /.netlify/functions/:splat
+# Dzięki temu w kodzie możesz używać fetch('/api/...').
+[[redirects]]
+  from = "/api/*"
+  to   = "/.netlify/functions/:splat"
+  status = 200
+    
