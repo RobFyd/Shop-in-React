@@ -9,8 +9,8 @@ A simple full-stack application with:
 
 ## 🌐 Live Demo
 
-- Frontend (Netlify): [https://twoj-frontend.netlify.app](https://twoj-frontend.netlify.app)
-- Backend (Render): [https://twoj-backend.onrender.com](https://twoj-backend.onrender.com)
+- Frontend (Netlify): [https://frontend.netlify.app](https://twoj-frontend.netlify.app)
+- Backend (Render): [https://backend.onrender.com](https://twoj-backend.onrender.com)
 
 ---
 
