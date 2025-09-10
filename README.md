@@ -7,7 +7,7 @@ A simple full-stack application with:
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Demo (in progress)
 
 - Frontend (Netlify): [https://frontend.netlify.app](https://twoj-frontend.netlify.app)
 - Backend (Render): [https://backend.onrender.com](https://twoj-backend.onrender.com)
