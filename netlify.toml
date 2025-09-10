@@ -8,6 +8,11 @@ NODE_VERSION = "18"
 
 # SPA redirect dla React Router
 [[redirects]]
-from = "/*"
-to = "/index.html"
+# from = "/*"
+# to = "/index.html"
+# status = 200
+
+from = "/:resource"
+to = "https://shop-in-react.onrender.com/:resource"
 status = 200
+force = true
