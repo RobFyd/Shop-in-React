@@ -7,11 +7,42 @@ publish = "dist"
 NODE_VERSION = "18"
 
 [[redirects]]
-from = "/api/*"
-to   = "https://shop-in-react.onrender.com/:splat"
+from = "/main"
+to   = "https://shop-in-react.onrender.com/main"
 status = 200
 force = true
 
+[[redirects]]
+from = "/women"
+to   = "https://shop-in-react.onrender.com/women"
+status = 200
+force = true
+
+[[redirects]]
+from = "/men"
+to   = "https://shop-in-react.onrender.com/men"
+status = 200
+force = true
+
+[[redirects]]
+from = "/children"
+to   = "https://shop-in-react.onrender.com/children"
+status = 200
+force = true
+
+[[redirects]]
+from = "/products"
+to   = "https://shop-in-react.onrender.com/products"
+status = 200
+force = true
+
+[[redirects]]
+from = "/favourites"
+to   = "https://shop-in-react.onrender.com/favourites"
+status = 200
+force = true
+
+# SPA redirect dla React Router
 [[redirects]]
 from = "/*"
 to = "/index.html"
