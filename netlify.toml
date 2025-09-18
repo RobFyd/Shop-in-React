@@ -1,48 +1,21 @@
 [build]
+# Monorepo: frontend w "front-end/"
 base = "front-end"
 command = "npm ci && npm run build"
-publish = "dist"
+# Publikujemy gotowy build z katalogu front-end/dist
+publish = "front-end/dist"
 
 [build.environment]
 NODE_VERSION = "18"
 
+# Proxy wszystkich wywołań API przez Netlify do Rendera (eliminuje CORS)
 [[redirects]]
-from = "/main"
-to   = "https://shop-in-react.onrender.com/main"
+from = "/api/*"
+to = "https://shop-in-react.onrender.com/:splat"
 status = 200
 force = true
 
-[[redirects]]
-from = "/women"
-to   = "https://shop-in-react.onrender.com/women"
-status = 200
-force = true
-
-[[redirects]]
-from = "/men"
-to   = "https://shop-in-react.onrender.com/men"
-status = 200
-force = true
-
-[[redirects]]
-from = "/children"
-to   = "https://shop-in-react.onrender.com/children"
-status = 200
-force = true
-
-[[redirects]]
-from = "/products"
-to   = "https://shop-in-react.onrender.com/products"
-status = 200
-force = true
-
-[[redirects]]
-from = "/favourites"
-to   = "https://shop-in-react.onrender.com/favourites"
-status = 200
-force = true
-
-# SPA redirect dla React Router
+# SPA fallback — wszystkie inne ścieżki obsłuży React Router
 [[redirects]]
 from = "/*"
 to = "/index.html"
