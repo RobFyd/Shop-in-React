@@ -3,7 +3,7 @@
 base = "front-end"
 command = "npm ci && npm run build"
 # Publikujemy gotowy build z katalogu front-end/dist
-publish = "front-end/dist"
+publish = "dist"
 
 [build.environment]
 NODE_VERSION = "18"
