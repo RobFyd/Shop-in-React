@@ -3,7 +3,7 @@
 A simple full-stack application with:
 
 - **Frontend (React/Vite)** deployed on **Netlify**
-- **Backend (Express/Node.js)** deployed on **Render**
+- **Backend (Node.js/json-server)** deployed on **Render**
 
 ---
 
@@ -22,7 +22,7 @@ https://shop-by-react.netlify.app
 ---
 
 ### Technologies:
-![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,vite,netlify,express,nodejs,npm,git,styledcomponents,figma,github,vscode)
+![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,vite,netlify,nodejs,npm,git,styledcomponents,figma,github,vscode)
 
 - HTML
 - CSS
@@ -31,8 +31,8 @@ https://shop-by-react.netlify.app
 - React Router
 - Vite
 - Netlify
+- json-server
 - Render
-- Express
 - Node.js
 - styled components
 - custom hooks
