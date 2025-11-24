@@ -15,3 +15,6 @@ A simple full-stack application with:
 ---
 
 ## 📂 Project Structure
+
+- `frontend/` - React/Vite frontend code
+- `backend/` - Express/Node.js backend code
