@@ -56,7 +56,3 @@ npm run dev //Start the development servers (frontend + backend run in parallel)
 
 npm run reset //Reset database to original state
 ```
-
----
-
-## 📂 Project Structure
