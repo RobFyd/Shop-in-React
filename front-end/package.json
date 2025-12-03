@@ -24,7 +24,7 @@
     "@storybook/addon-docs": "^10.0.8",
     "@storybook/addon-onboarding": "^10.0.8",
     "@storybook/addon-vitest": "^10.0.8",
-    "@storybook/react-vite": "^10.0.8",
+    "@storybook/react-vite": "^10.1.4",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
