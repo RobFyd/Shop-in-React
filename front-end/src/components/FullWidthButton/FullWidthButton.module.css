@@ -1,15 +1,16 @@
 .button {
+    --bg-color: var(--color-theme-main);
     border: none;
     background: none;
     width: 100%;
     padding: 1rem 0;
     color: var(--color-white);
     text-transform: uppercase;
-    background-color: var(--color-theme-main);
+    background-color: var(--bg-color);
     /* cursor: pointer; */
     font-weight: 700;
 }
 
 .black {
-    background-color: var(--color-text-default);
+    --bg-color: var(--color-text-default);
 }
