@@ -18,5 +18,5 @@
 .inverted {
     color: var(--bg-color);
     border: 2px solid var(--bg-color);
-    background-color: none;
+    background-color: transparent;
 }
