@@ -9,5 +9,6 @@ export const Default = {
   args: {
     isBlack: true,
     children: "TEST black button",
+    isInverted: false,
   },
 };
