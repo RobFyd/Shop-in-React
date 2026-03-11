@@ -39,6 +39,7 @@ https://shop-by-react.netlify.app
 - custom hooks
 - figma
 - git
+- playwright
 
 ---
 
